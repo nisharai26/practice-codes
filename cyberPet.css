@@ -1,0 +1,28 @@
+header{
+    text-align: center;
+    align-items: center;
+}
+#image{
+    height: 250px;
+    width: 250px;
+    align-items: center;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+body {
+    background-color: orange;
+}
+.center:active{
+background:#777;
+}
+.center{
+   align-items: center;
+   
+    color: #f2f2f2;
+    border-radius: 4px;
+    cursor:pointer;
+    width: 100%;
+
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="cyberPet.css" type="text/css" />
+    <header>
+      <h1>Cyber Pet</h1>
+    </header>
+  </head>
+
+  <body>
+    <image id="image" src="./cyberPet.jpeg"></image>
+    <div class="dropdown">
+      <select id="petview">
+        <option value="1">Cat</option>
+        <option value="2">Dog</option>
+        <option value="3">Rabbit</option>
+      </select>
+    </div>
+    <input type="text" id="nameinput" />
+    <button id="gamePlay">Game Play</button>
+    <div class="Status">
+      <h2><strong>Status</strong></h2>
+    
+    Hunger: <div id="hunger">100%</div>
+    Play:<div id="play">100%</div>
+     Drink:<div id="drink">100%</div>
+     Happy:<div id="happy">100%</div>
+    </div>
+    <div class="center">
+      <button id="eatbtn" disabled="true" >Feed</button>
+       <button id="playbtn"disabled="true" >Play</button>
+     <button id="drinkbtn" disabled="true">Drink</button>
+      <button id="happybtn" disabled="true" >Happy</button>
+    </div>
+    <script src="cyberPet.js"></script>
+  </body>
+</html>
